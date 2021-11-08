@@ -19,7 +19,7 @@
     <sonar.dependencyCheck.htmlReportPath>./target/dependency-check-report.html</sonar.dependencyCheck.htmlReportPath>
     <sonar.dependencyCheck.jsonReportPath>./target/dependency-check-report.json</sonar.dependencyCheck.jsonReportPath>
     <sonar.dependencyCheck.summarize>true</sonar.dependencyCheck.summarize>
-    <sonar.host.url>http://34.131.81.146:9000</sonar.host.url>
+    <sonar.host.url>http://34.131.108.240:9000</sonar.host.url>
     <sonar.login>admin</sonar.login>
     <sonar.password>admin1</sonar.password>
     <!-- JaCoCo Properties -->
@@ -59,11 +59,11 @@
   <distributionManagement>
     <snapshotRepository>
        <id>nexus</id>
-	    <url>http://34.131.81.146:8081/repository/maven-snapshots</url>
+	    <url>http://34.131.108.240:8081/repository/maven-snapshots</url>
     </snapshotRepository>
     <repository>
       <id>nexus</id>
-      <url>http://34.131.81.146:8081/repository/maven-releases/</url>
+      <url>http://34.131.108.240:8081/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
   
